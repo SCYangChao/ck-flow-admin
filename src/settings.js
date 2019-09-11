@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'shop-admin',
+  title: 'CK-FLOW',
 
   /**
    * @type {boolean} true | false

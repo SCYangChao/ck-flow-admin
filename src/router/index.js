@@ -41,7 +41,6 @@ export const constantRoutes = [
     component: () => import('@/views/404'),
     hidden: true
   },
-
   {
     path: '/',
     component: Layout,
@@ -53,7 +52,26 @@ export const constantRoutes = [
       meta: { title: '首页', icon: 'dashboard' }
     }]
   },
-
+  {
+    path: '/flow',
+    component: Layout,
+    name: '工作流管理',
+    meta: { title: '工作流管理', icon: 'example' },
+    children: [
+        {
+          path: 'sysConfig',
+          meta: {title: '系统配置', icon: 'table'},
+          component: () =>  import('@/views/flow/config/index')
+         }
+      ]
+  },
+  {
+    path: 'tree',
+      name: 'Tree',
+    component: () => import('@/views/tree/index'),
+    meta: { title: 'Tree', icon: 'tree' }
+  }
+,
   {
     path: '/sys',
     component: Layout,

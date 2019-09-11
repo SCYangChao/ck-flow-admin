@@ -1,5 +1,5 @@
-# shop-admin 
-  * shop-admin基于vue-element-admin框架开发
+# CK-FLOW 
+  * CK-FLOW基于vue-element-admin框架开发
   * shop 为毕业本科论文后台管理页面
 ## Build Setup
 

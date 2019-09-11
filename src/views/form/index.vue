@@ -10,7 +10,6 @@
           <el-option label="Zone two" value="beijing" />
         </el-select>
       </el-form-item>
-
       <el-form-item label="Activity time">
         <el-col :span="11">
           <el-date-picker v-model="form.date1" type="date" placeholder="Pick a date" style="width: 100%;" />
